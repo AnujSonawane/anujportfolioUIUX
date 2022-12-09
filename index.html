@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/ui/fav1.png">
+        <link rel="stylesheet" href="style.css">
+        <title>Anuj Sonawane</title>
+    </head>
+
+    <body>
+        <h1 class="main">ANUJ</h1>
+        <h1 class="main1">SONAWANE</h1>
+        <h3 class="study">CS ENGINEER | UI/UX DESIGNER | 3D ARTIST | WEBDEV </h3>
+
+        <div class="td">
+            <div id="current_date">
+                </p>
+            </div>
+            <p id="timecur"></p>
+        </div>
+        <p class="bar">Anuj Suresh Sonawane</p>
+        <video class="ani" autoplay loop muted src="images/art/final.mp4"></video>
+
+        <p class="links"><a class="web" href="https://github.com/AnujSonawane" target="_blank">GITHUB</a> | <a
+                class="web" href="https://www.linkedin.com/in/anuj-sonawane06/" target="_blank">LINKEDIN</a> | <a
+                class="web"
+                href="https://www.instagram.com/anuj.undesign/?next=%2Foauth%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3D406212054666876%26redirect_uri%3Dhttps%3A%2F%2Fopensea.io%2Fconnected-socials%2Faccount-instagram-callback%26scope%3Duser_profile%26state%3Dm1jMgMj7DWLMFFXcis3Nn0pYihiuOM%26logger_id%3D11e43a32-9ae3-4e95-afca-dc16d32428ec"
+                target="_blank">INSTAGRAM</a>
+        </p>
+        <p class="scroll">Scroll Down <span style='font-size:16px;'>&#8766;</span></p>
+
+        <hr class="line">
+
+        <p class="pro">UI/UX PROJECTS</p>
+
+        <img class="one" src="images/ui/INTERIOr.png" alt="">
+        <img class="two" src="images/ui/Nftverse.png" alt="">
+        <img class="two" src="images/ui/brand.png" alt="">
+        <img class="three" src="images/ui/maldives.png" alt="">
+        <img class="four" src="images/ui/boat.png" alt="">
+        <img class="four" src="images/ui/ukraine.png" alt="">
+        <hr class="line">
+        <p class="pro">3D Art & Animation</p>
+        <video class="vid1" autoplay loop muted src="images/art/ONE.mp4" type="video/mp4"></video>
+        <video class="vid1" autoplay loop muted src="images/art/one1.mp4" type="video/mp4"></video>
+        <video class="vid2" autoplay loop muted src="images/art/Airship.mp4" type="video/mp4"></video>
+        <video class="vid3" autoplay loop muted src="images/art/0001-0120.mp4" type="video/mp4"></video>
+        <video class="vid4" autoplay loop muted src="images/art/one2.mp4" type="video/mp4"></video>
+        <video class="vid5" autoplay loop muted src="images/art/first.mp4" type="video/mp4"></video>
+        <hr class="line">
+        <p class="about">I am a self-taught UI/UX designer and 3d Artist based in Pune, Maharashtra.
+            I am passionate about improving the lives of others through design, and I'm constantly looking to learn new
+            things everyday.</p>
+        <p class="links1"><a class="web" href="https://github.com/AnujSonawane" target="_blank">GITHUB</a> | <a
+                class="web" href="https://www.linkedin.com/in/anuj-sonawane06/" target="_blank">LINKEDIN</a> | <a
+                class="web"
+                href="https://www.instagram.com/anuj.undesign/?next=%2Foauth%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3D406212054666876%26redirect_uri%3Dhttps%3A%2F%2Fopensea.io%2Fconnected-socials%2Faccount-instagram-callback%26scope%3Duser_profile%26state%3Dm1jMgMj7DWLMFFXcis3Nn0pYihiuOM%26logger_id%3D11e43a32-9ae3-4e95-afca-dc16d32428ec"
+                target="_blank">INSTAGRAM</a>
+        </p>
+        <span
+            style='color: rgb(73, 73, 73); font-size:20px; text-align: center; margin-top: 50px;justify-content: center;margin-left: 660px;'>&#8766;</span>
+    </body>
+
+
+    <script>
+        let time = document.getElementById("timecur");
+        setInterval(() => {
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        }, 1000)
+        date = new Date();
+        year = date.getFullYear();
+        month = date.getMonth() + 1;
+        day = date.getDate();
+        document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year;
+    </script>
+
+</html>
